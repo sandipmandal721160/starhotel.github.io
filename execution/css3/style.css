@@ -1,0 +1,251 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;   
+}
+
+
+
+/* HOME PAGE START */
+
+.nav-link{
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    color: #f5b039 !important;
+}
+
+.navbar-brand:hover{
+    border-bottom : 2px #3a99af solid;
+    border-radius:10px;
+    
+}
+
+.search_bar{
+    background-color: #eee;
+    padding: 2rem;
+    box-shadow: 0 0 10px #888;
+    margin: 2rem 0;
+    
+}
+.ok-btn{
+    margin-top: 31px !important;
+}
+.btn-org, .bg-org{
+    background-color:skyblue;
+    transition: .5s ease;
+}
+.bg-org:hover{
+    background-color:#f5b039 !important;
+}
+.btn-org:hover{
+    background-color:#f5b039 !important;
+
+}
+
+.line{
+    width: 80px;
+    height: 5px;
+    background: #3a99af;
+    margin-left: 8.5rem;
+}
+.img-transition{
+	transition-duration:0.5s;
+}
+.img-transition:hover{
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+.poster{
+    height: 20rem;   
+    background-image:  url(../../raw/image/videoimage.jpg);
+    background-attachment: fixed;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#poster{
+    margin: 2rem 0;
+}
+.poster-container{
+    background-color: skyblue;
+}
+.poster-img{
+    transition: transform 1s;
+}
+.poster-img:hover{
+    transform: scale(1.1);
+}
+.box{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: .3s ease;
+    padding: 1rem;
+}
+.box:hover{
+    background-color: skyblue;
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;    
+}
+.carousel-indicators li{
+    background-color: #3a99af !important;
+}
+
+
+footer{     
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer a{
+    color: #000 !important;
+}
+.footer a:hover{
+    color: #fff !important;
+}
+.footer{    
+    background: #3a99af;
+    
+}
+i{
+    color: #f5b039;
+}
+.fa-social a i{
+    font-size: 25px;
+}
+.ft-contact ul{
+    list-style: none;
+    padding-left: 0;
+} 
+.copyright-option ul{
+    list-style: none;
+    padding-left: 0;
+
+    
+}
+.fn-form{
+    border: none;
+    padding: 7px 10px;
+    
+
+}
+
+
+/* ABOUT US PAGE */
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+.staff_transition:hover{
+    transition-duration: 2s;
+}
+.staff_transition:hover{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(10deg);
+}
+
+
+/* SERVICES PAGE START */
+
+.service-items-animation{
+    transition: transform 1s;
+   
+}
+.service-items-animation:hover{
+    transform:translate(0px,-15px);
+}
+#tes-img{
+    height: 10rem;
+    background: url(../../raw/image/testimonialimage.jpg);    
+    background-repeat: no-repeat;    
+    background-size: cover; 
+    
+}
+.news-text{
+    padding-left: 9rem;
+    padding-top: 2rem;
+}
+
+.image-hover{
+    transition: transform 1s;
+}
+.image-hover:hover{
+    transform: scale(1.1);
+}
+
+#service-poster{
+    height: 20rem;
+    background-image: url(../../raw/image/service_poster.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.overley{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.3);   
+}
+
+
+/* CONTACT PAGE START */
+
+.c-o{
+    color: rgba(0, 0, 0, 0.8);
+}
+.contact-form input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #3a99af;
+	font-size: 16px;
+	color: #aaaab3;
+	padding-left: 25px;
+	margin-bottom: 28px;
+}
+
+.contact-form textarea {
+	width: 100%;
+	height: 150px;
+	border: 1px solid #3a99af;
+	font-size: 16px;
+	color: #aaaab3;
+	padding-left: 25px;
+	padding-top: 12px;
+	margin-bottom: 33px;
+	
+}
+
+.contact-form button {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	background: #3a99af;
+	border: none;
+	padding: 14px 34px 13px;
+	display: inline-block;
+}
+
+
+
+
+
